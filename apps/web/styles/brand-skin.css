@@ -140,8 +140,8 @@ main > section:first-of-type {
 /* Boutique-catalogue: lift + stagger + copper underline draw */
 
 :root.js-motion main section {
-  opacity: 0;
-  transform: translateY(18px);
+  opacity: 0.45;
+  transform: translateY(10px);
   transition: opacity 700ms ease, transform 750ms cubic-bezier(.2,.7,.2,1);
 }
 :root.js-motion main section.in-view { opacity: 1; transform: none; }
@@ -150,8 +150,8 @@ main > section:first-of-type {
 :root.js-motion main h1,
 :root.js-motion main h2,
 :root.js-motion main h3 {
-  opacity: 0;
-  transform: translateY(12px);
+  opacity: 0.45;
+  transform: translateY(10px);
   transition: opacity 700ms ease, transform 750ms cubic-bezier(.2,.7,.2,1);
 }
 :root.js-motion main h1.in-view,
@@ -168,8 +168,8 @@ main > section:first-of-type {
 /* Eyebrow + lead paragraph — fade in slightly later */
 :root.js-motion main p.eyebrow,
 :root.js-motion main p.lead {
-  opacity: 0;
-  transform: translateY(8px);
+  opacity: 0.45;
+  transform: translateY(10px);
   transition: opacity 700ms 200ms ease, transform 800ms 200ms cubic-bezier(.2,.7,.2,1);
 }
 :root.js-motion main p.eyebrow.in-view,
@@ -183,8 +183,8 @@ main > section:first-of-type {
 :root.js-motion .work-card,
 :root.js-motion .journal-card,
 :root.js-motion .journal-row {
-  opacity: 0;
-  transform: translateY(20px);
+  opacity: 0.45;
+  transform: translateY(10px);
   transition: opacity 800ms cubic-bezier(.2,.7,.2,1), transform 850ms cubic-bezier(.2,.7,.2,1), box-shadow 280ms ease;
 }
 :root.js-motion .collection-card-img.in-view,
