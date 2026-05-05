@@ -11,7 +11,7 @@ function check(file: string, mustContain: string[]) {
 check("components/site/Footer.tsx", ["Concept site by", "concierge.studio", "VAT/MBR"]);
 check("components/site/ConceptBanner.tsx", ["Marsalforn Home", "concierge.studio"]);
 check("lib/agent/system-prompt.ts", ["Mateo", "Marsalforn Home", "EU Omnibus", "EU CRD", "wholesale"]);
-check("lib/agent/kb.ts", ["Marsalforn", "Lithuanian", "Pyrenees", "Florence"]);
+check("lib/agent/kb.ts", ["Marsalforn", "Lithuanian", "Pyrenees", "Florentine"]);
 check("components/front/FrontHero.tsx", ["Ask Mateo", "Mateo", "Marsalforn"]);
 check("app/(public)/page.tsx", ["FrontHero"]);
 check("drizzle/migrations/0003_marsalforn.sql", ["collections", "products", "sale_items", "journal_posts", "carts", "save_lists", "return_requests", "wholesale_inquiries"]);
