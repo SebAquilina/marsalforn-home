@@ -7,8 +7,8 @@ function db(): D1Database | null {
   const g = globalThis as unknown as { DB?: D1Database };
   return env.DB ?? g.DB ?? null;
 }
-const TABLE = "returns" === "products" ? "products" : "returns" === "collections" ? "collections" : "returns" === "journal" ? "journal_posts" : "returns" === "sales" ? "sale_items" : "returns" === "returns" ? "return_requests" : "wholesale_inquiries";
-const TITLE = "returns" === "products" ? "Catalogue · 32 SKUs" : "returns" === "collections" ? "Collections · 4" : "returns" === "journal" ? "Journal · 8 posts" : "returns" === "sales" ? "Sale items · 5 active" : "returns" === "returns" ? "Return requests" : "Wholesale inquiries";
+const TABLE = "return_requests";
+const TITLE = "Return requests";
 export default async function Page() {
   const d = db();
   let rows: Record<string, unknown>[] = [];
