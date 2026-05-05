@@ -42,10 +42,10 @@ export default async function ProductPage({ params }: { params: { sku: string } 
           <p className="eyebrow"><Link href={`/${product.collection_slug}`} className="muted">← {product.collection_slug}</Link></p>
           <div className="product-detail">
             <div className="product-images">
-              <div className="product-image-main" style={{ backgroundImage: `url(/lookbook/${product.collection_slug}.jpg)` }} aria-hidden="true" />
+              <div className="product-image-main" style={{ backgroundImage: `url(/lookbook/${product.collection_slug}.svg)` }} aria-hidden="true" />
               <div className="product-image-thumbs">
                 {[1,2,3].map((n) => (
-                  <div key={n} className="product-image-thumb" style={{ backgroundImage: `url(/lookbook/${product.collection_slug}.jpg)` }} aria-hidden="true" />
+                  <div key={n} className="product-image-thumb" style={{ backgroundImage: `url(/lookbook/${product.collection_slug}.svg)` }} aria-hidden="true" />
                 ))}
               </div>
             </div>
@@ -119,7 +119,7 @@ export default async function ProductPage({ params }: { params: { sku: string } 
             <div className="oils-grid">
               {related.map((r) => (
                 <article key={r.sku} className="oil-card">
-                  <Link href={`/p/${r.sku}`} className="oil-card-img-link" style={{ backgroundImage: `url(/lookbook/${r.collection_slug}.jpg)` }} aria-label={r.name}>
+                  <Link href={`/p/${r.sku}`} className="oil-card-img-link" style={{ backgroundImage: `url(/lookbook/${r.collection_slug}.svg)` }} aria-label={r.name}>
                     <span className="visually-hidden">{r.name}</span>
                   </Link>
                   <div className="oil-card-body">

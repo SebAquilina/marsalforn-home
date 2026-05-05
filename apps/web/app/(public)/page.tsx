@@ -27,7 +27,7 @@ export default async function Home() {
           <div className="collection-grid">
             {collections.map((c) => (
               <Link key={c.slug} href={`/${c.slug}`} className="collection-card">
-                <div className="collection-card-img" style={{ backgroundImage: `url(/lookbook/${c.slug === "lighting" ? "linen" : c.slug}.jpg)` }} aria-hidden="true" />
+                <div className="collection-card-img" style={{ backgroundImage: `url(/lookbook/${c.slug}.svg)` }} aria-hidden="true" />
                 <h3>{c.name}</h3>
               </Link>
             ))}
@@ -42,7 +42,7 @@ export default async function Home() {
           <div className="oils-grid">
             {picks.map((p) => (
               <article key={p.sku} className="oil-card">
-                <Link href={`/p/${p.sku}`} className="oil-card-img-link" style={{ backgroundImage: `url(/lookbook/${p.collection_slug}.jpg)` }} aria-label={p.name}>
+                <Link href={`/p/${p.sku}`} className="oil-card-img-link" style={{ backgroundImage: `url(/lookbook/${p.collection_slug}.svg)` }} aria-label={p.name}>
                   <span className="visually-hidden">{p.name}</span>
                 </Link>
                 <div className="oil-card-body">

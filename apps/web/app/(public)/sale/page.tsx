@@ -24,7 +24,7 @@ export default async function SalePage() {
           <div className="catalog-grid">
             {items.map((p: any) => (
               <article key={p.sku} className="catalog-card">
-                <Link href={`/p/${p.sku}`} className="catalog-card-img" style={{ backgroundImage: `url(/lookbook/${p.collection_slug}.jpg)` }} aria-hidden="true" />
+                <Link href={`/p/${p.sku}`} className="catalog-card-img" style={{ backgroundImage: `url(/lookbook/${p.collection_slug}.svg)` }} aria-hidden="true" />
                 <div className="catalog-card-body">
                   <p className="meta">{p.collection_slug.toUpperCase()}</p>
                   <h3><Link href={`/p/${p.sku}`}>{p.name}</Link></h3>

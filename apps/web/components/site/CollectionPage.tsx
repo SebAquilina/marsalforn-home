@@ -28,7 +28,7 @@ export async function CollectionPage({ slug }: { slug: string }) {
           <div className="catalog-grid">
             {products.map((p) => (
               <article key={p.sku} className="catalog-card">
-                <Link href={`/p/${p.sku}`} className="catalog-card-img" style={{ backgroundImage: `url(/lookbook/${p.collection_slug}.jpg)` }} aria-hidden="true" />
+                <Link href={`/p/${p.sku}`} className="catalog-card-img" style={{ backgroundImage: `url(/lookbook/${p.collection_slug}.svg)` }} aria-hidden="true" />
                 <div className="catalog-card-body">
                   <p className="meta">{p.materials.split(",")[0].trim()}</p>
                   <h3><Link href={`/p/${p.sku}`}>{p.name}</Link></h3>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <radialGradient id="warm" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#ede5d4" stop-opacity="1"/>
+      <stop offset="1" stop-color="#e8dec6" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#warm)"/>
+  <!-- table edge -->
+  <line x1="0" y1="600" x2="1200" y2="600" stroke="#a76a3c" stroke-width="0.8" opacity="0.5"/>
+  
+    <!-- ceiling line -->
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#1a1410" stroke-width="1" opacity="0.4"/>
+    <!-- pendant cord -->
+    <line x1="600" y1="120" x2="600" y2="380" stroke="#1a1410" stroke-width="2"/>
+    <!-- pendant shade (brass dome) -->
+    <ellipse cx="600" cy="400" rx="160" ry="40" fill="#a76a3c"/>
+    <path d="M 440 400 Q 600 460 760 400" fill="#a76a3c" opacity="0.9"/>
+    <ellipse cx="600" cy="400" rx="160" ry="40" fill="none" stroke="#5a3818" stroke-width="1"/>
+    <!-- bulb glow -->
+    <circle cx="600" cy="450" r="50" fill="#fff4d8" opacity="0.6"/>
+    <circle cx="600" cy="450" r="30" fill="#ffe8a8" opacity="0.8"/>
+  <!-- copper underline rule -->
+  <line x1="100" y1="740" x2="320" y2="740" stroke="#a76a3c" stroke-width="2"/>
+  <!-- monogram MH -->
+  <text x="100" y="180" font-family="Georgia, serif" font-style="italic" font-size="36" fill="#1a1410" opacity="0.85">M·H</text>
+  <text x="100" y="210" font-family="Inter, sans-serif" font-size="11" fill="#1a1410" opacity="0.6" letter-spacing="3">LIGHTING</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <radialGradient id="warm" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#fbf9f4" stop-opacity="1"/>
+      <stop offset="1" stop-color="#e8dec6" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#warm)"/>
+  <!-- table edge -->
+  <line x1="0" y1="600" x2="1200" y2="600" stroke="#a76a3c" stroke-width="0.8" opacity="0.5"/>
+  
+    <!-- Copper pan with handle -->
+    <g transform="translate(360,420)">
+      <ellipse cx="200" cy="100" rx="220" ry="50" fill="#a76a3c" opacity="0.95"/>
+      <ellipse cx="200" cy="92" rx="220" ry="50" fill="#a76a3c"/>
+      <ellipse cx="200" cy="92" rx="200" ry="40" fill="#e6a565" opacity="0.7"/>
+      <rect x="420" y="80" width="180" height="20" fill="#2f261b" rx="10"/>
+    </g>
+    <!-- Brass salt cellar -->
+    <g transform="translate(800,360)">
+      <rect x="0" y="40" width="120" height="160" fill="#a76a3c" rx="6"/>
+      <rect x="20" y="20" width="80" height="40" fill="#a76a3c" opacity="0.85" rx="4"/>
+      <line x1="60" y1="20" x2="60" y2="200" stroke="#3a2410" stroke-width="0.6" opacity="0.5"/>
+    </g>
+  <!-- copper underline rule -->
+  <line x1="100" y1="740" x2="320" y2="740" stroke="#a76a3c" stroke-width="2"/>
+  <!-- monogram MH -->
+  <text x="100" y="180" font-family="Georgia, serif" font-style="italic" font-size="36" fill="#2f261b" opacity="0.85">M·H</text>
+  <text x="100" y="210" font-family="Inter, sans-serif" font-size="11" fill="#2f261b" opacity="0.6" letter-spacing="3">KITCHEN</text>
+</svg>
