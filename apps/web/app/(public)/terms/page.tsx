@@ -1,3 +1,4 @@
+import Link from "next/link";
 export const dynamic = "force-static";
 export const runtime = "edge";
 export const metadata = { title: "Terms — Marsalforn Home", alternates: { canonical: "/terms" } };
