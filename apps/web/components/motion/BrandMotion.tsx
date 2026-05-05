@@ -17,6 +17,7 @@ export function BrandMotion() {
       document.documentElement.classList.add("mh-no-motion");
       return;
     }
+    document.documentElement.classList.add("js-motion");
 
     const reveals = document.querySelectorAll<HTMLElement>(
       "main section, main h1, main h2, main h3, main p.lead, main p.eyebrow, .collection-card-img, .catalog-card-img, .oil-card-img-link, .product-image-main, .work-card, .journal-card, .journal-row, .sale-badge, blockquote, ul, ol, table"
