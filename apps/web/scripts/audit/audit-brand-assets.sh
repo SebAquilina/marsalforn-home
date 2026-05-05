@@ -12,8 +12,8 @@ for f in "${required[@]}"; do
   fi
 done
 # Portfolio placeholder dir (work or oils or products)
-if [ ! -d public/work ] && [ ! -d public/oils ] && [ ! -d public/products ]; then
-  echo "[brand-assets] MISSING: portfolio placeholder dir (public/{work,oils,products})"
+if [ ! -d public/work ] && [ ! -d public/oils ] && [ ! -d public/products ] && [ ! -d public/lookbook ]; then
+  echo "[brand-assets] MISSING: portfolio placeholder dir (public/{work,oils,products,lookbook})"
   fail=$((fail+1))
 fi
 # Header lockup wired
