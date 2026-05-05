@@ -10,12 +10,12 @@ ADMIN_OWNER_EMAILS = "seb.aquilina@gmail.com"
 [[d1_databases]]
 binding = "DB"
 database_name = "marsalforn-home-db"
-database_id = "PLACEHOLDER"
+database_id = "488ee7cf-514f-44d9-8653-4e80814f665f"
 migrations_dir = "drizzle/migrations"
 
 [[kv_namespaces]]
 binding = "DEAD_LETTER"
-id = "PLACEHOLDER"
+id = "70bbae63b12442429c541ec6f93c3b59"
 
 [env.preview]
 name = "marsalforn-home-web-preview"
@@ -26,9 +26,9 @@ ADMIN_OWNER_EMAILS = "seb.aquilina@gmail.com"
 [[env.preview.d1_databases]]
 binding = "DB"
 database_name = "marsalforn-home-preview"
-database_id = "PLACEHOLDER"
+database_id = "6662fa0d-c717-4ea5-afee-c5a5fe83c05b"
 migrations_dir = "drizzle/migrations"
 
 [[env.preview.kv_namespaces]]
 binding = "DEAD_LETTER"
-id = "PLACEHOLDER"
+id = "70bbae63b12442429c541ec6f93c3b59"
