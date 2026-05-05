@@ -1,0 +1,9 @@
+{
+  "oils": [
+    { "slug": "k01", "name": "Copper Sauté Pan, 24cm", "kind": "oil", "price_cents": 31000 },
+    { "slug": "l01", "name": "Sheet Set, single", "kind": "oil", "price_cents": 17500 },
+    { "slug": "lt01", "name": "Brass Table Lamp", "kind": "oil", "price_cents": 29500 },
+    { "slug": "k06", "name": "Hand-thrown Bowl set of 4", "kind": "oil", "price_cents": 14800 },
+    { "slug": "b08", "name": "Linen Robe", "kind": "experience", "price_cents": 14800 }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Marsalforn Home",
+  "slug": "marsalforn-home",
+  "tagline": "Modern Mediterranean Goods, From Gozo",
+  "voice": {
+    "register": "designer-first",
+    "rules": [
+      "leads with what the thing does, then what it's made of, then who made it",
+      "materials are facts — weights, dimensions, country of origin",
+      "long technical answers when warranted",
+      "first-person plural for the brand, first-person singular for opinions",
+      "gift-friendly — never forgets 30% of basket is gifts"
+    ],
+    "bannedPhrases": ["premium", "luxury", "exclusive", "curated", "elevate", "indulge", "experience as a verb", "thoughtful", "hand-crafted with love"]
+  },
+  "palette": { "bg": "#fbf9f4", "ink": "#16140f", "accent": "#a76a3c", "muted": "#5a5346" },
+  "typography": { "display": "EB Garamond", "sans": "Inter" },
+  "concept": {
+    "isConceptSite": true,
+    "operator": "concierge.studio",
+    "tier": "Plus",
+    "checkoutEnabled": false,
+    "leadInbox": "portfolio@concierge.studio"
+  }
+}

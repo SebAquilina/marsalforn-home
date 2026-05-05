@@ -1,0 +1,44 @@
+:root {
+  /* === Marsalforn Home — modern Mediterranean, slow production === */
+  --color-bg: #fbf9f4;             /* warm white */
+  --color-surface: #ffffff;
+  --color-ink: #16140f;             /* dark espresso */
+  --color-ink-muted: #5a5346;
+  --color-ink-subtle: #8b8472;
+  --color-accent: #a76a3c;          /* brushed copper */
+  --color-accent-strong: #8a4f25;
+  --color-line: #e8e2d3;
+  --color-line-strong: #d4ccb8;
+  --color-deep: #252116;
+  --color-overlay: rgba(37, 33, 22, 0.75);
+  --color-focus: #a76a3c;
+  --color-error: #8b2929;
+  --color-success: #3f5c4f;
+  --color-warn: #b8742a;
+  --color-sale: #a82c2c;            /* sale price red */
+
+  --color-design-spec-accent: #a76a3c;
+  --color-design-spec-bg: #fbf9f4;
+
+  /* === Typography === */
+  --font-display: "EB Garamond", "Söhne Breit", "Times New Roman", Georgia, serif;
+  --font-sans: "Inter", "Söhne", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "Söhne Mono", "SF Mono", Menlo, Consolas, monospace;
+
+  --text-display: clamp(2.4rem, 6vw, 4.4rem);
+  --text-h2: clamp(1.7rem, 4vw, 2.6rem);
+  --text-h3: clamp(1.2rem, 2.6vw, 1.5rem);
+  --text-body: 1rem;
+  --text-small: 0.88rem;
+  --text-eyebrow: 0.78rem;
+
+  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem;
+  --space-4: 1rem;    --space-5: 1.5rem; --space-6: 2rem;
+  --space-7: 3rem;    --space-8: 4.5rem; --space-9: 6.5rem;
+
+  --radius-sm: 4px; --radius-md: 8px; --radius-lg: 14px; --radius-pill: 999px;
+
+  --shadow-1: 0 4px 14px rgba(22, 20, 15, 0.05);
+  --shadow-2: 0 8px 24px rgba(22, 20, 15, 0.16);
+  --shadow-3: 0 20px 50px rgba(22, 20, 15, 0.20);
+}

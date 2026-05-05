@@ -1,0 +1,15 @@
+{
+  "siteUrl": "https://marsalforn-home-web.pages.dev",
+  "header": { "wordmark": "Marsalforn Home", "ctaText": "Talk to Mateo →", "ctaHref": "/#concierge" },
+  "frontHero": {
+    "h1": "Ask Mateo anything.",
+    "sub": "Modern Mediterranean home goods — kitchen, bath, linen, lighting. Designed in Gozo, made in small runs by partner workshops in the Pyrenees, Lithuania, Tuscany, and Florence. 32 SKUs in stock and made-to-order. Ask for a recommendation, a gift, a lead time, or a return — Mateo runs the chat.",
+    "prompts": [
+      "Wedding gift for my brother — €200",
+      "Difference between the 24cm and 28cm copper pans?",
+      "Linen sheets — what size for a double bed?",
+      "Hardwiring a pendant — anything I should ask my electrician?"
+    ]
+  },
+  "footer": { "disclosure": "© 2026 Marsalforn Home · Concept site by concierge.studio · this brand is a portfolio piece · modern Mediterranean goods, from Gozo · checkout is disabled · contact form reaches a real inbox at portfolio@concierge.studio · not a registered trader · no VAT/MBR" }
+}
