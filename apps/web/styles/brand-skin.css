@@ -1,0 +1,109 @@
+/* Marsalforn Home — Boutique e-commerce catalogue skin */
+
+:root {
+  --mh-warm: #fbf9f4;
+  --mh-copper: #a76a3c;
+  --mh-walnut: #2f261b;
+  --mh-sale: #a82c2c;
+}
+
+body {
+  background: var(--mh-warm);
+}
+
+/* Hero: large Garamond italic with copper underline */
+.front-hero h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  color: var(--mh-walnut);
+  position: relative;
+  display: inline-block;
+}
+.front-hero h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: var(--mh-copper);
+  margin-top: 0.8rem;
+}
+
+/* Eyebrows: SKU-stamp mono */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--mh-copper);
+  font-weight: 600;
+  border: 1px solid var(--mh-copper);
+  padding: 0.25rem 0.6rem;
+  display: inline-block;
+}
+
+/* H2 — Garamond, walnut */
+h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.25rem, 4vw, 3.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--mh-walnut);
+  font-style: italic;
+}
+
+/* Product grid: dense 3-col with hairline borders */
+.collection-grid, .work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Product card images: tall portrait + hairline */
+.collection-card-img, .catalog-card-img, .oil-card-img-link {
+  aspect-ratio: 3 / 4;
+  background-size: cover !important;
+  background-position: center !important;
+  border: 1px solid var(--color-line);
+  display: block;
+}
+
+/* Sale badge */
+.sale-badge {
+  background: var(--mh-sale);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  padding: 0.2rem 0.5rem;
+  text-transform: uppercase;
+}
+
+/* Journal: broadsheet feel */
+.journal-card, .journal-row {
+  border-top: 2px solid var(--mh-walnut);
+  padding-top: 1.25rem;
+}
+.journal-card h3 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--mh-walnut);
+}
+
+/* Concierge box */
+.front-hero-input, .front-hero-input-form {
+  border: 1px solid var(--mh-walnut);
+  background: #fff;
+  border-radius: 2px;
+}
+
+/* Footer: copper rule above */
+footer {
+  border-top: 2px solid var(--mh-copper);
+}
