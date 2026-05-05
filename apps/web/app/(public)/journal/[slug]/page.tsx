@@ -14,7 +14,7 @@ function esc(s: string) { return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").re
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const p = await getPost(params.slug);
-  return p ? { title: `${p.title} — Marsalforn Home`, description: p.excerpt, alternates: { canonical: `/journal/${p.slug}` } } : { title: "Journal" };
+  return p ? { title: `${p.title}`, description: p.excerpt, alternates: { canonical: `/journal/${p.slug}` } } : { title: "Journal" };
 }
 
 export default async function JournalPost({ params }: { params: { slug: string } }) {

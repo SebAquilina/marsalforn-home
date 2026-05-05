@@ -1,6 +1,6 @@
 import Link from "next/link";
 export const runtime = "edge"; export const dynamic = "force-static";
-export const metadata = { title: "FAQ — Marsalforn Home", alternates: { canonical: "/faq" } };
+export const metadata = { title: "FAQ", alternates: { canonical: "/faq" } };
 
 const FAQS = [
   { cat: "Shipping", q: "Where do you ship?", a: "Malta, EU, UK, US, and rest of world. Quote on a country at /shipping or via Mateo." },

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { listProducts } from "@/lib/products/store";
 export const runtime = "edge"; export const dynamic = "force-dynamic";
-export const metadata = { title: "Cart — Marsalforn Home", alternates: { canonical: "/cart" } };
+export const metadata = { title: "Cart", alternates: { canonical: "/cart" } };
 
 const EUR = (c: number) => `€${(c / 100).toFixed(2)}`;
 

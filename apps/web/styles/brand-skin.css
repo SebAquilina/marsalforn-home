@@ -107,3 +107,31 @@ h2 {
 footer {
   border-top: 2px solid var(--mh-copper);
 }
+
+/* Header wordmark — prevent wrapping */
+.wordmark-text { white-space: nowrap; }
+.site-header-inner { gap: 1rem; }
+
+
+/* Marsalforn Home header nav — collections */
+.header-nav {
+  display: flex;
+  gap: 1.25rem;
+  margin-left: auto;
+  margin-right: 1.25rem;
+}
+.header-nav a {
+  font-size: 0.875rem;
+  color: var(--mh-walnut, #2f261b);
+  text-decoration: none;
+  transition: color 200ms;
+}
+.header-nav a:hover { color: var(--mh-copper, #a76a3c); }
+@media (max-width: 760px) {
+  .header-nav { display: none; }
+}
+
+/* Reduce excess top padding on inner-page heroes */
+main > section:first-of-type {
+  padding-top: clamp(2rem, 5vw, 3.5rem) !important;
+}

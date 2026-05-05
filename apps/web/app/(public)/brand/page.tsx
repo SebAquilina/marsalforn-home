@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { listWorkshops } from "@/lib/products/store";
 export const runtime = "edge"; export const dynamic = "force-dynamic";
-export const metadata = { title: "The brand — Marsalforn Home", alternates: { canonical: "/brand" } };
+export const metadata = { title: "The brand", alternates: { canonical: "/brand" } };
 
 function md(s: string): string {
   return s.split(/\n{2,}/).map((b) => `<p>${b.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\n/g,"<br/>")}</p>`).join("\n");

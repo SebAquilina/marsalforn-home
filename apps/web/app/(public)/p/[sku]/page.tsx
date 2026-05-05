@@ -19,7 +19,7 @@ function esc(s: string) { return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").re
 export async function generateMetadata({ params }: { params: { sku: string } }) {
   const p = await getProduct(params.sku);
   if (!p) return { title: "Marsalforn Home" };
-  return { title: `${p.name} — Marsalforn Home`, description: p.hook, alternates: { canonical: `/p/${p.sku}` } };
+  return { title: `${p.name}`, description: p.hook, alternates: { canonical: `/p/${p.sku}` } };
 }
 
 export default async function ProductPage({ params }: { params: { sku: string } }) {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 export const runtime = "edge"; export const dynamic = "force-static";
-export const metadata = { title: "Shipping — Marsalforn Home", alternates: { canonical: "/shipping" } };
+export const metadata = { title: "Shipping", alternates: { canonical: "/shipping" } };
 
 export default function ShippingPage() {
   const RATES = [

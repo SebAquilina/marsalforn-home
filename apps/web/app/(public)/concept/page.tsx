@@ -1,7 +1,7 @@
 export const dynamic = "force-static";
 import Link from "next/link";
 export const runtime = "edge";
-export const metadata = { title: "Concept — Marsalforn Home", alternates: { canonical: "/concept" } };
+export const metadata = { title: "Concept", alternates: { canonical: "/concept" } };
 export default function ConceptPage() {
   return (
     <section>

@@ -3,7 +3,7 @@ import { listSaleItems } from "@/lib/products/store";
 
 export const runtime = "edge";
 export const dynamic = "force-dynamic";
-export const metadata = { title: "Sale — Marsalforn Home", alternates: { canonical: "/sale" } };
+export const metadata = { title: "Sale", alternates: { canonical: "/sale" } };
 
 const EUR = (c: number) => `€${(c / 100).toFixed(0)}`;
 

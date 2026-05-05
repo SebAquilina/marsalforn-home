@@ -1,6 +1,6 @@
 import Link from "next/link";
 export const runtime = "edge"; export const dynamic = "force-static";
-export const metadata = { title: "Account — Marsalforn Home", alternates: { canonical: "/account" } };
+export const metadata = { title: "Account", alternates: { canonical: "/account" } };
 export default function AccountPage() {
   return (
     <section>

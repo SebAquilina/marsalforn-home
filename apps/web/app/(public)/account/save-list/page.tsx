@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ClientIdField } from "@/components/analytics/ClientIdField";
 export const runtime = "edge"; export const dynamic = "force-dynamic";
-export const metadata = { title: "Save list — Marsalforn Home", alternates: { canonical: "/account/save-list" } };
+export const metadata = { title: "Save list", alternates: { canonical: "/account/save-list" } };
 
 export default function SaveListPage() {
   return (

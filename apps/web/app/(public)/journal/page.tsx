@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { listPosts } from "@/lib/journal/store";
 export const runtime = "edge"; export const dynamic = "force-dynamic";
-export const metadata = { title: "Journal — Marsalforn Home", alternates: { canonical: "/journal" } };
+export const metadata = { title: "Journal", alternates: { canonical: "/journal" } };
 export default async function JournalIndex() {
   const posts = await listPosts({ publishedOnly: true });
   return (

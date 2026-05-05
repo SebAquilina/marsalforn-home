@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ClientIdField } from "@/components/analytics/ClientIdField";
 export const runtime = "edge"; export const dynamic = "force-static";
-export const metadata = { title: "Returns — Marsalforn Home", alternates: { canonical: "/returns" } };
+export const metadata = { title: "Returns", alternates: { canonical: "/returns" } };
 
 export default function ReturnsPage() {
   return (
